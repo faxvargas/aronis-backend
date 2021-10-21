@@ -6,7 +6,7 @@ const clotheSchema = mongoose.Schema({
         required: true
     },
     talla:{
-        type: Number,
+        type: String,
         required:true
     },
     pictureUrl:{
